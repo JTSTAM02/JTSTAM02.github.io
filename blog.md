@@ -1,6 +1,6 @@
 # Welcome to Bootcamp!
 
-![Stressed Programmer](sadcoder.jpeg)
+![Stressed Programmer](JTSTAM02.github.io/img/sadcoder.jpeg)
 
 
 The first week of this bootcamp was full of ups and downs. Trying to finish one career and start the journey to another in the same week is menatlally and physically exhausting. I slept soundly every night. I had some great moments of success tis week. I was stuck on some git commands for a long time, trying to authorize my account for hours. I literally jumped for joy when I finally got my SSH key to work. I also fell to the depths of despair when I began analyzing the example blog and was blown away by the massive amount of code I saw. It's hard to believe I could ever become proficient enough in web development to be able to read, understand, and even create code like that. However, I know this is just the beginning of the journey. All I need to do is continue to step forward. I expected my week to be busy, but I had no clue how busy it would be. Between dangling work responsibilies and starting this intensive bootcamp, i felt tired and overwhelmed much of the week. My focus was on perserverance. Perservere through the work day, and perservere through the bootcampm at night. In order to be great at anything in this life, it takes grit and the determination to not give up. Lets hope I can keep that mindset throughout this adventure.
