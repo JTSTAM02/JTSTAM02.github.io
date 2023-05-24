@@ -7,4 +7,4 @@ The first week of this bootcamp was full of ups and downs. Trying to finish one 
 
 I am eager to learn more coding, particularly CSS and JavaScript. I feel that I have so much to learn and want to continue diving deeper into these topics. I also want to work on developing projects, so I can really apply what I am reading about and really harness the craft. Reading and taking notes is one thing; it takes true knowledge of a topic to be able to take those reading and create something with it. Before the bootcamp, I studied a few codinjg basics on my own. Basic HTML, CSS, and a little JavaScript and Python via VS Code. But this week has opened my eyes to a new world: GitHub. Using git commands and the CLI to commit files to Github, utilizing GitPod within the site, and even creating forks and clones has shown me how much I have to learn about this world. It's not all about knowing the code. It's also colalboration, connection with others, and utilizing all the various tools and resources that are out there.
 
-![Happy Coding] (img/happycoder.jpeg)
+![Excited Coding](img/happycoder.jpeg)
