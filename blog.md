@@ -5,8 +5,8 @@
 
    The first week of this bootcamp was full of ups and downs. Trying to finish one career and start the journey to another in the same week is mentally and physically exhausting. I definitely slept soundly every night. I had some great moments of success this week. I was stuck on some git commands for a long time, trying to authorize my account for hours. Running through tutorial after tutorial trying to find my error, or what I had to do to sync up my local repository and Github's. You can only press this Git commands for so long! Here's a few I've learned this week:
    ```
-   git Status 
-   git Clone
+   git status 
+   git clone
    git add
    git commit -m "Message"
    ```
