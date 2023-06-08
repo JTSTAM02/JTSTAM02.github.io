@@ -1,3 +1,3 @@
-![BlogPostWireframe](img/BlogPostTemplateWireframes.pdf)
+![BlogPostWireframe](img/BlogPostTemplateWireframe.pdf)
 ![BlogPostTemplateWireframe](img/BlogPostWireframe.pdf)
 
