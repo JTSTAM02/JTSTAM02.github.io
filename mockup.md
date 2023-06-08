@@ -1,2 +1,3 @@
-(/img/BlogPostTemplateWireframe.pdf)
-(/img/BlogPostWireframe.pdf)
+![BlogPostWireframe](img/BlogPostTemplateWireframes.pdf)
+![BlogPostTemplateWireframe](img/BlogPostWireframe.pdf)
+
