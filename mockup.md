@@ -1,1 +1,2 @@
-Enter pics here
+(/img/BlogPostTemplateWireframe.pdf)
+(/img/BlogPostWireframe.pdf)
