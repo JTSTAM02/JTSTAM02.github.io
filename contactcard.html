@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Card</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
     .contact-card {
+      position: relative;
+      color: #333;
       max-width: 600px;
       margin: 0 auto;
       height: 600px;
@@ -23,6 +25,34 @@
       align-items: center;
     }
 
+    .contact-card::after {
+    content: "Let's Connect!";
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(241, 63, 63);
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-card:hover::after {
+    opacity: 1;
+  }
+
     .contact-card img {
       width: 250px;
       height: 250px;
@@ -35,24 +65,24 @@
       font-size: 40px;
       margin-bottom: 10px;
     }
+
     .contact-card .icons {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-        color: #333;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
     }
 
     .contact-card .icons a {
-        font-size: 50px;
-        margin: 0 10px;
+      font-size: 36px;
+      margin: 0 10px;
+      color: #333;
     }
-@media (max-width: 576px) {
-    .contact-card {
+
+    @media (max-width: 576px) {
+      .contact-card {
         height: 100vh;
+      }
     }
-}
-
-
   </style>
 </head>
 <body>
@@ -62,16 +92,14 @@
       <a href="mailto:tyler.stamm1313@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/john-tyler-stamm/" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="tel:502-648-8571" target="_blank"><i class="fas fa-phone"></i></a>
-      <!-- Add more icons as needed -->
     </div>
-    <img src="https://media.licdn.com/dms/image/D5603AQGNhUPsu0b-Ng/profile-displayphoto-shrink_800_800/0/1686406519314?e=1692230400&v=beta&t=QHusjU71sgjPefikjHMfGbxOC88yVqlIcbjWhEgHK1o" alt="John Tyler Stamm">
+    <img src="https://media.licdn.com/dms/image/D5603AQEKxeHMvOj-eQ/profile-displayphoto-shrink_400_400/0/1686849204210?e=1692230400&v=beta&t=wqcLR9LqZqLzRJ3iI7ltv7JaOKXpFiXQqnaDz59_k4o" alt="John Tyler Stamm" class="rounded mx-auto d-block img-fluid">
     <h2>Tyler Stamm</h2>
   </div>
 
-  <!-- Add the necessary Bootstrap and Font Awesome CDNs -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 </body>
 </html>
