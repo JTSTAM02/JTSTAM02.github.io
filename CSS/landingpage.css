@@ -1,0 +1,22 @@
+.navbar {
+    background-color: lightblue;
+  }
+  
+  .navbar .nav-link {
+    color: navy;
+  }
+  
+
+#blog {
+    background-color: lightblue;
+}
+
+#home {
+    background-color: navy;
+}
+
+h1 {
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
