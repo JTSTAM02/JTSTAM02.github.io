@@ -1,0 +1,8 @@
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: cyan;
+}
