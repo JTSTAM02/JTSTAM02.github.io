@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="CSS/blogstyling.css">
     <style>
+
+      .accordion-item {
+        background-color: navy;
+        color: white;
+      }
 footer {
   margin-top: 10px;
 }
@@ -41,21 +46,24 @@ footer {
       <div style="max-width: 600px;" class="container ml-4">
         <div class="row">
           <div class="col m-2"></div>
-      <h2> My Projects</h2>
+          <br>
+      <h2> <b>My Projects</b></h2>
+      <br>
       <br>
       <p>Attached below are some projects I've been working on. Some were done through web development courses (especially bootcamp), and others were done personally or professionally. Feel free to share with me your thoughts! I love hearing good things about my work, but I most admire constructive feedback that makes me better.</p>
       <hr>
 
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion" id="accordionPanelsStayOpen">
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
         My Weather App</button>
           </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">Click <a href="https://jtstam02.github.io/weather-app/" target="_blank">here</a> to see my live Weather App. It fetches data from a free API that can display weather condiitons all across the nation. Give it a try! If you wanna see the code that makes it happen, check out this <a href="https://github.com/JTSTAM02/weather-app" target="_blank">GitHub repository.</a></div>
           </div>
         </div>
+
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -67,6 +75,7 @@ footer {
                 Find a friend and enjoy the classic game! I created this one specifically designed for two players, so you and a friend or loved one can compete! (HINT: start in the middle if you can. It's easier.) <br><a href="https://github.com/JTSTAM02/tic-tac-toe" target="_blank">Repo</a></div>
           </div>
         </div>
+
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -77,23 +86,50 @@ footer {
             <div class="accordion-body"><a href="https://jtstam02.github.io/mind-reader/" target="_blank">This project</a> is meant to blow your mind. Follow the directions closely, and do not skip any. If you accidentely click past one (let's face it, mistakes happen), click refresh and start again. How do you think I did it?<br><a href="https://github.com/JTSTAM02/mind-reader" target="_blank">For the Nerds Like Me</a></div>
           </div>
         </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Local Restaurant Menu
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> <a href="https://jtstam02.github.io/react-random-restaurant/">Let's Eat!</a><br>
+                This menu is for an imaginery restaurant but the hunger is <b>REAL!</b>. Check out the menu items by section, and pick out your favorite! <br><a href="https://github.com/JTSTAM02/react-random-restaurant" target="_blank">Repo</a></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              To-Do List
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> <a href="https://jtstam02.github.io/to-do-list/">To-Do-List</a><br>
+                Need a new to do list and the Reminders app just not cutting it? Try out my design! Includes options to complete all and activate all. It even saves your list items if you accidentely x out of the page! <br><a href="https://github.com/JTSTAM02/to-do-list" target="_blank">Repo</a></div>
+          </div>
+        </div>
+
       </div>
           </div>
         </div>
       </div>
     </div>
       </article>
-
-      <div class="col-sm-1 fluid">
-        <sidebar class="text-center">
-          <h1 class="side-heading">Future Projects</h1>
-            <ul>
+      <br>
+      <div class="col-lg-12">
+          <h1>Future Projects</h1>
                 <li>Sports Statistics Database</li>
-            </ul>
+                <hr>
+                <li>Hangman!</li>
+                <hr>
+                <li>Real Estate Website</li>
+                <hr>
 
 
 
       <footer>
+        <p>And More! Let me know if you need any projects completed.</p>
 
 
       </footer>

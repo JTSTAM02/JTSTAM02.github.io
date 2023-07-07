@@ -15,7 +15,9 @@ body {
 #blog {
     background-color: hsl(240, 50%, 30%);
 }
-
+li{
+    color:hsl(180, 50%, 70%)
+}
 #home {
     background-color: hsl(180, 50%, 70%);
 }
