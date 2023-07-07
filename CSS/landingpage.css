@@ -1,18 +1,18 @@
 .navbar {
-    background-color: cyan;
+    background-color: hsl(180, 50%, 70%);
   }
   
   .navbar .nav-link {
-    color: navy;
+    color: hsl(240, 50%, 30%);
   }
   
 
 #blog {
-    background-color: cyan;
+    background-color: hsl(180, 50%, 70%);
 }
 
 #home {
-    background-color: navy;
+    background-color: hsl(240, 50%, 30%);
 }
 
 h1 {
