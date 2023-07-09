@@ -1,15 +1,14 @@
 body {
-    background-color: navy;
-    margin-top: 50px;
+    background-color: hsl(240, 50%, 30%);
     text-align: center;
 }
 
 .navbar {
-    color: navy;
+    background-color: hsl(180, 50%, 70%);
 }
 
 .nav-link {
-    color: cyan;
+    color: hsl(240, 50%, 30%);
 }
 
 #blog {
