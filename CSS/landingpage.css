@@ -1,5 +1,6 @@
 .navbar {
     background-color: hsl(180, 50%, 70%);
+    text-align: center;
   }
   
   .navbar .nav-link {
