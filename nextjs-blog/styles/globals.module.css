@@ -1,17 +1,13 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
+
+.container {
+  background-color: gray;
+  color: navy;
+
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -35,4 +31,4 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
-}
+} */

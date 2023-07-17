@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>My Blog</title>
+        <link rel="icon" href="favicon.jpeg" />
       </Head>
       {<NavBar></NavBar>}
       <main>
         <h1 className={styles.title}>
-          Read <Link href="/posts/first-post.js">About Me!</Link>
+          Read <Link href="/posts/AboutMe">About Me!</Link>
         </h1>
 
         <p className={styles.description}>
