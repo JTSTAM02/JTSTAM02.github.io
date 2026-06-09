@@ -11,127 +11,22 @@ body {
 
 /* NAV */
 .navbar {
-  background-color: #0f172a;
-  border-bottom: 1px solid #1e2d45;
-}
+    background-color: hsl(180, 50%, 70%);
+    text-align: center;
+  }
+  
+  .navbar .nav-link {
+    color: hsl(240, 50%, 30%);
+  }
+  
 
-.navbar .nav-link {
-  color: #94a3b8;
-  font-size: 0.9rem;
-  letter-spacing: 0.03em;
-  transition: color 0.2s;
-}
-
-.navbar .nav-link:hover {
-  color: #38bdf8;
+#blog {
+    background-color: hsl(180, 50%, 70%);
 }
 
 /* HERO */
 #home {
-  background-color: #0f172a;
-  padding: 6rem 0 4rem;
-}
-
-#home h1 {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #f1f5f9;
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-style: normal;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-  padding: 0;
-  margin-bottom: 0.75rem;
-}
-
-#home .tagline {
-  color: #38bdf8;
-  font-size: 1.1rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  margin-bottom: 1.25rem;
-}
-
-#home p.hero-desc {
-  color: #94a3b8;
-  font-size: 1.05rem;
-  max-width: 480px;
-  margin: 0 auto 2rem;
-  line-height: 1.7;
-}
-
-#home .rounded-circle {
-  height: 160px;
-  width: 160px;
-  object-fit: cover;
-  border: 3px solid #38bdf8;
-  margin-bottom: 1.5rem;
-}
-
-.btn-outline-sky {
-  background: transparent;
-  border: 1px solid #38bdf8;
-  color: #38bdf8;
-  border-radius: 6px;
-  padding: 0.5rem 1.25rem;
-  font-size: 0.9rem;
-  transition: background 0.2s, color 0.2s;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.btn-outline-sky:hover {
-  background: #38bdf8;
-  color: #0f172a;
-}
-
-/* SERVICES SECTION */
-#services {
-  background-color: #0f172a;
-  padding: 4rem 0;
-  border-top: 1px solid #1e2d45;
-}
-
-#services h2 {
-  color: #f1f5f9;
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-#services .section-sub {
-  color: #64748b;
-  font-size: 0.95rem;
-  margin-bottom: 2.5rem;
-}
-
-.service-card {
-  background: #131f35;
-  border: 1px solid #1e2d45;
-  border-radius: 12px;
-  padding: 1.5rem;
-  height: 100%;
-  transition: border-color 0.2s, transform 0.2s;
-}
-
-.service-card:hover {
-  border-color: #38bdf8;
-  transform: translateY(-2px);
-}
-
-.service-icon {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-}
-
-.service-card h5 {
-  color: #e2e8f0;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
+    background-color: hsl(240, 50%, 30%);
 }
 
 .service-card p {
