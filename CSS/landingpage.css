@@ -240,7 +240,7 @@ body{
 .dash-header span{font-size:.75rem;color:#475569;font-family:monospace}
 .dash-title{font-size:.88rem;font-weight:600;color:#94a3b8}
 .kpi-grid{
-  display:grid;
+  display:-webkit-inline-box;
   grid-template-columns:repeat(3,1fr);
   gap:.75rem;
   margin-bottom:1.25rem;
