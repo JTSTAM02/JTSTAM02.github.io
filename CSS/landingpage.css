@@ -333,7 +333,9 @@ footer a{color:#38bdf8;text-decoration:none}
 
 /* Fix stats bar padding on iPhone */
 @media (max-width: 576px) {
-  
+  .stats-bar {
+    padding: 0rem 0;
+  }
 
   .stat-item {
     padding: 0.6rem 1rem !important;
