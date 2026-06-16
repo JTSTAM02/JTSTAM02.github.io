@@ -377,8 +377,9 @@ footer a{color:#38bdf8;text-decoration:none}
   }
 
   .bar-label {
-    width: 75px;
+    width: 80px;
     font-size: 0.65rem;
+    text-align: left;
   }
 
   .bar-val {
