@@ -333,8 +333,27 @@ footer a{color:#38bdf8;text-decoration:none}
 
 /* Fix stats bar padding on iPhone */
 @media (max-width: 576px) {
+  .stats-bar {
+    padding: 1rem 0;
+  }
+
   .stat-item {
-    padding: 0.75rem 1rem;
+    padding: 0.6rem 1rem !important;
+    flex: 0 0 100%;
+    border-left: none !important;
+    border-bottom: 1px solid #162032;
+  }
+
+  .stat-item:last-child {
+    border-bottom: none;
+  }
+
+  .stat-num {
+    font-size: 1.4rem;
+  }
+
+  .stat-label {
+    font-size: 0.7rem;
   }
 }
 
